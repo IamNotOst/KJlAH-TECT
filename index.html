@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clan Name - Официальный сайт</title>
+    <link rel="stylesheet" href="css/dark-theme.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="language-switcher">
+        <button class="lang-btn active" data-lang="ru">RU</button>
+        <button class="lang-btn" data-lang="en">EN</button>
+    </div>
+
+    <header class="animated-header">
+        <div class="clan-logo">
+            <img src="images/clan-logo.png" alt="Clan Logo">
+        </div>
+        <h1 class="clan-name" data-translate="clan_name">Имя Клана</h1>
+        <p class="clan-motto" data-translate="clan_motto">Наш девиз здесь</p>
+    </header>
+
+    <nav class="main-nav">
+        <ul>
+            <li><a href="#about" data-translate="nav_about">О клане</a></li>
+            <li><a href="#members" data-translate="nav_members">Участники</a></li>
+            <li><a href="#rules" data-translate="nav_rules">Правила</a></li>
+            <li><a href="#alliances" data-translate="nav_alliances">Альянсы</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="about" class="section animated-section">
+            <h2 data-translate="about_title">О нашем клане</h2>
+            <div class="about-content">
+                <p data-translate="about_text1">Мы - сплоченное сообщество игроков, стремящихся к совершенству.</p>
+                <p data-translate="about_text2">Наш клан основан в 2020 году и с тех пор мы добились многого.</p>
+            </div>
+        </section>
+
+        <section id="members" class="section">
+            <h2 data-translate="members_title">Наши участники</h2>
+            
+            <div class="leader-card">
+                <div class="member-avatar">
+                    <img src="images/leader-avatar.jpg" alt="Leader Avatar">
+                </div>
+                <div class="member-info">
+                    <h3 class="member-name">LeaderNickname</h3>
+                    <p class="member-rank" data-translate="rank_leader">Глава клана</p>
+                </div>
+            </div>
+
+            <div class="elders-container">
+                <h3 data-translate="elders_title">Совет старейшин</h3>
+                <div class="elders-grid">
+                    <!-- Старейшины будут добавлены через JS -->
+                </div>
+            </div>
+
+            <div class="members-container">
+                <h3 data-translate="members_title">Участники</h3>
+                <div class="members-grid">
+                    <!-- Участники будут добавлены через JS -->
+                </div>
+            </div>
+        </section>
+
+        <section id="rules" class="section animated-section">
+            <h2 data-translate="rules_title">Правила клана</h2>
+            <div class="rules-content">
+                <ol class="rules-list">
+                    <li data-translate="rule1">Уважение к другим участникам</li>
+                    <li data-translate="rule2">Активность не менее 3 раз в неделю</li>
+                    <li data-translate="rule3">Следование стратегии клана</li>
+                    <li data-translate="rule4">Запрет на оскорбления</li>
+                    <li data-translate="rule5">Участие в клановых мероприятиях</li>
+                </ol>
+            </div>
+        </section>
+
+        <section id="alliances" class="section animated-section">
+            <h2 data-translate="alliances_title">Наши альянсы</h2>
+            <div class="alliances-grid">
+                <!-- Альянсы будут добавлены через JS -->
+            </div>
+        </section>
+    </main>
+
+    <footer class="animated-footer">
+        <div class="footer-content">
+            <p class="copyright" data-translate="copyright">© 2023 Имя Клана. Все права защищены.</p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-discord"></i></a>
+                <a href="#"><i class="fab fa-telegram"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/language-switcher.js"></script>
+    <script src="js/animations.js"></script>
+</body>
+</html>
