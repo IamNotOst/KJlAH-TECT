@@ -1,0 +1,47 @@
+{
+    "leader": {
+        "name": "ShadowMaster",
+        "avatar": "images/leader-avatar.jpg",
+        "rank": "Глава клана"
+    },
+    "elders": [
+        {
+            "name": "DarkKnight",
+            "avatar": "images/elder1.jpg",
+            "rank": "Старейшина"
+        },
+        {
+            "name": "MoonWalker",
+            "avatar": "images/elder2.jpg",
+            "rank": "Старейшина"
+        },
+        {
+            "name": "BloodQueen",
+            "avatar": "images/elder3.jpg",
+            "rank": "Старейшина"
+        },
+        {
+            "name": "SteelFang",
+            "avatar": "images/elder4.jpg",
+            "rank": "Старейшина"
+        },
+        {
+            "name": "NightShade",
+            "avatar": "images/elder5.jpg",
+            "rank": "Старейшина"
+        }
+    ],
+    "members": [
+        {
+            "name": "ShadowPupil1",
+            "avatar": "images/member1.jpg",
+            "rank": "Участник"
+        },
+        {
+            "name": "ShadowPupil2",
+            "avatar": "images/member2.jpg",
+            "rank": "Участник"
+        }
+        // ... остальные участники
+    ]
+}
